@@ -1,6 +1,10 @@
 package testmod
 
-import "fmt" 
+import (
+    "fmt" 
+    "errors"
+)
+   
 
 // Hi returns a friendly greeting
 // Hi 返回一个欢迎语，其语言由 lang 指定
